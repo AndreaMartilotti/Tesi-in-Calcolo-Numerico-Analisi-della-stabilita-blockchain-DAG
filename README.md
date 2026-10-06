@@ -38,7 +38,7 @@ flowchart LR
     B --> C[Matrice di adiacenza sparsa A<br/>]
     C --> D[Centralità di Katz<br/>]
     C --> E[PageRank<br/>]
-    E --> G[Laplaciana simmetrica e vettore di Fiedler]
+    B --> G[Laplaciana simmetrica e vettore di Fiedler]
     G --> H[Sweep Cut<br/>]
     G --> I[Valutazione Fiedler]
     D --> J[Log · grafici · riepilogo.csv]
