@@ -38,7 +38,7 @@ flowchart LR
     B --> C[Matrice di adiacenza sparsa A<br/>]
     C --> D[Centralità di Katz<br/>]
     C --> E[PageRank<br/>]
-    E --> G[Laplaciana simmetrica e vettore di Fiedler]
+    C --> G[Laplaciana simmetrica e vettore di Fiedler]
     G --> H[Sweep Cut<br/>]
     G --> I[Valutazione Fiedler]
     D --> J[Log · grafici · riepilogo.csv]
@@ -59,7 +59,7 @@ flowchart LR
 ```
 
 ### Esecuzione
-1. Apri `stability_DAG_analisys2.m` in MATLAB (R2021a o successivo, nessun toolbox aggiuntivo).
+1. Apri `stability_DAG_analisys.m` in MATLAB (R2021a o successivo, nessun toolbox aggiuntivo).
 2. Imposta i parametri nella sezione 1:
    - `n` — numero di transazioni da analizzare (500, 2000, 10000);
    - `verso` — `2` per il verso *Backward* (tip → genesi, accumulo del consenso), `1` per il verso *Forward*;
