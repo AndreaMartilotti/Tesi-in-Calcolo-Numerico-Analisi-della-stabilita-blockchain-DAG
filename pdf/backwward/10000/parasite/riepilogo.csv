@@ -1,0 +1,2 @@
+dataset,verso,nodi,archi,profondita,componenti,fuori_componente,lambda2,lambda2_L2,cheeger_inf,phi_sweep,cheeger_sup,cheeger_ok,n_gruppo1,n_gruppo2,archi_taglio,n_plateau,archi_plateau,phi_plateau,alpha_soglia_katz,concordanza_ordine,concordanza_insieme
+dataset/parasite/dataset_dag.csv,2,10000,19997,1213,1,0,5.6949775782732e-06,8.37941346436627,2.8474887891366e-06,0.000500083347224537,0.00337490076247383,1,3001,6999,6,1341,29,0.00541347769273847,0.001,0,0

@@ -1,0 +1,20 @@
+Dataset: dataset/healty/dataset_dag.csv | n = 500 | verso = 1
+Nodi: 500 | Archi: 997 | Profondita': 64 | Indice di nilpotenza: 65
+PageRank: convergenza in 49 iterazioni (delta = 7.43e-09)
+Nodi dominanti PageRank: [483 448 434 234]
+Punteggi: [0.005809 0.005632 0.005574 0.005406]
+Katz: residuo relativo massimo sulla griglia = 8.38e-16
+Katz: ranking univoco per 722 valori di alpha su 1001 (alpha >= 0.279)
+Concordanza top-4 (stesso ordine):  0.00 %
+Concordanza top-4 (stesso insieme): 0.00 %
+Componenti connesse: 1 | nodi fuori dalla componente principale: 0
+RISULTATI SPETTRALI
+lambda2 (connettivita' algebrica) = 0.00219557
+Cheeger: 0.001098 <= Phi_G <= Phi_sweep = 0.01361 <= 0.06627  -> true
+Taglio: k = 219 su 500 | Gruppo1 (volume minore): 219 nodi | Gruppo2: 281 nodi
+Archi di taglio: 12 | nodi di confine: 9 (G1), 9 (G2)
+lambda2 * L^2 = 8.993
+Plateau: 23 nodi (atteso con distribuzione uniforme: 2) | indici 461-498 | altezza 60-63
+Plateau: archi verso il resto = 29 | Phi(plateau) = 0.358
+Dominanti PageRank nel plateau: 0 su 4
+Tempi [s]: caricamento 0.037 | PageRank 0.004 | Katz 0.108 | Fiedler 0.019 | Sweep 0.002

@@ -1,0 +1,2 @@
+dataset,verso,nodi,archi,profondita,componenti,fuori_componente,lambda2,cheeger_inf,phi_sweep,cheeger_sup,cheeger_ok,n_gruppo1,n_gruppo2,archi_taglio,concordanza_ordine,concordanza_insieme
+dataset/healty/dataset_dag.csv,1,2000,3997,247,1,0,0.000131799837117488,6.58999185587442e-05,0.00343170899107756,0.0162357529617501,1,731,1269,10,0,0

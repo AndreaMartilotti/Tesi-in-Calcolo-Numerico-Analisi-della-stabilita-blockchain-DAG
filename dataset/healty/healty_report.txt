@@ -1,0 +1,8 @@
+[INFO healthy] tip pool medio: 357.00 (atteso ~ 12.0) | max: 694
+[VERIFICA] transazioni          : 10000
+[VERIFICA] hash univoci         : 10000
+[VERIFICA] aciclicita'           : OK
+[VERIFICA] out-degree = 2        : OK
+[VERIFICA] conferme duplicate   : 1 (solo bootstrap, inevitabile)
+[VERIFICA] in-degree max/medio  : 10 / 2.00
+[VERIFICA] H_x Genesi           : 10000

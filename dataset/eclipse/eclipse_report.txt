@@ -1,0 +1,8 @@
+[INFO eclipse_split] A: 4956 | B: 5044 | bridge: 3
+[VERIFICA] transazioni          : 10000
+[VERIFICA] hash univoci         : 10000
+[VERIFICA] aciclicita'           : OK
+[VERIFICA] out-degree = 2        : OK
+[VERIFICA] conferme duplicate   : 1 (solo bootstrap, inevitabile)
+[VERIFICA] in-degree max/medio  : 10 / 2.00
+[VERIFICA] H_x Genesi           : 10000

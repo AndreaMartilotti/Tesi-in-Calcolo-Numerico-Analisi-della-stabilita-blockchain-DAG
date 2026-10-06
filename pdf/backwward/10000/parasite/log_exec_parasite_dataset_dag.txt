@@ -1,0 +1,20 @@
+Dataset: dataset/parasite/dataset_dag.csv | n = 10000 | verso = 2
+Nodi: 10000 | Archi: 19997 | Profondita': 1213 | Indice di nilpotenza: 1214
+PageRank: convergenza in 88 iterazioni (delta = 9.45e-09)
+Nodi dominanti PageRank: [5001 5016 5024 1]
+Punteggi: [0.001206 0.00112 0.001003 0.0008786]
+Katz: residuo relativo massimo sulla griglia = 8.24e-16
+Katz: ranking univoco per 1000 valori di alpha su 1001 (alpha >= 0.001)
+Concordanza top-4 (stesso ordine):  0.00 %
+Concordanza top-4 (stesso insieme): 0.00 %
+Componenti connesse: 1 | nodi fuori dalla componente principale: 0
+RISULTATI SPETTRALI
+lambda2 (connettivita' algebrica) = 5.69498e-06
+Cheeger: 2.847e-06 <= Phi_G <= Phi_sweep = 0.0005001 <= 0.003375  -> true
+Taglio: k = 6999 su 10000 | Gruppo1 (volume minore): 3001 nodi | Gruppo2: 6999 nodi
+Archi di taglio: 6 | nodi di confine: 4 (G1), 6 (G2)
+lambda2 * L^2 = 8.379
+Plateau: 1341 nodi (atteso con distribuzione uniforme: 50) | indici 4973-9999 | altezza 610-1096
+Plateau: archi verso il resto = 29 | Phi(plateau) = 0.005413
+Dominanti PageRank nel plateau: 3 su 4
+Tempi [s]: caricamento 1.348 | PageRank 0.058 | Katz 25.238 | Fiedler 0.227 | Sweep 0.009
