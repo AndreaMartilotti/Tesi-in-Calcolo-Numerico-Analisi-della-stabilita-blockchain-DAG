@@ -96,7 +96,7 @@ The results show that Katz's attenuation factor marks the transition from a loca
 See the tree in the Italian section: the MATLAB pipeline, the Python dataset generator, the healthy and attacked datasets, and the `pdf/` folder with plots, execution logs, `.mat` results and `riepilogo.csv`.
 
 ### How to run
-1. Open `stability_DAG_analisys2.m` in MATLAB (R2021a or later, no extra toolboxes).
+1. Open `stability_DAG_analisys.m` in MATLAB (R2021a or later, no extra toolboxes).
 2. Set the parameters in section 1:
    - `n` — number of transactions to analyse (500, 2000, 10000);
    - `verso` — `2` for the *Backward* direction (tips → genesis, consensus accumulation), `1` for the *Forward* direction;
